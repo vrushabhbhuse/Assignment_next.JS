@@ -1,0 +1,34 @@
+.hero_section {
+  /* max-width: 1200px;
+  width: 90%;
+  margin: auto; */
+  background-image: url("../../public/mainBuilding.jpg");
+  background-size: cover;
+  height: 58rem;
+  
+}
+.hero_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.hero_content > h4 {
+  color: black;
+  margin-top: 50px;
+}
+.hero_content_data {
+  padding: 10px 15px 0 15px;
+  background: #89a1a1;
+  height: 20%;
+  border-radius: 20px;
+  margin-top: 280px;
+  font-size: 16px;
+}
+.hero_content_data > p {
+  color: whitesmoke;
+}
+/* body {
+  overflow: hidden;
+} */
